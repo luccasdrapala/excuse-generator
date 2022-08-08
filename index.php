@@ -29,10 +29,10 @@
 
         <form action="#">
           <div class="row">
-            <div class="col-md-2 "><!--border border-light-->
-              <label class="fs-5 mt-4 mb-4" for="option">Choose an option</label>
+            <div class="col-md-3 "><!--border border-light-->
+              <label class="fs-5 mt-4 mb-4 bg-dark text-warning" for="option">Choose an option...</label>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
               <select id="option" class="form-select form-select-lg fs-5 mt-4 mb-4">
                 <option value="random" selected >Random</option>
                 <option value="family">Family</option>
@@ -50,7 +50,7 @@
 
           <div class="row">
             <div class="col-md-12">
-              <textarea id="textarea" class="form-control mt-3 fs-5" rows= "3" placeholder="Your excuses should to appear here..." disabled></textarea>
+              <textarea id="textarea" class="form-control mt-3 fs-5" rows= "3" placeholder="Your excuses should to appears here..." disabled></textarea>
             </div>
           </div>
         </form>
