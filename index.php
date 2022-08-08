@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,15 +9,16 @@
     <script src="back.js"></script>
 
   </head>
+
   <body class='bg-dark text-light font-monospace'>
 
-    <div class="navbar bg-warning p-4">
+    <header class="navbar bg-warning p-4">
       <div class="container">
         <h3 class="text-dark font-monospace">Excuser Generator</h3>
       </div>
-    </div>
+</header>
 
-    <header class="container">
+    <div class="container">
       <div class="conteudo mt-4 mb-4">
 
         <p class="fs-5 text-center">
@@ -26,10 +27,10 @@
           "Generate Excuse" button...
         </p>
 
-        <form>
+        <form action="#">
           <div class="row">
             <div class="col-md-2 "><!--border border-light-->
-              <label class="fs-5 mt-4 mb-4">Choose an option</label>
+              <label class="fs-5 mt-4 mb-4" for="option">Choose an option</label>
             </div>
             <div class="col-md-3">
               <select id="option" class="form-select form-select-lg fs-5 mt-4 mb-4">
@@ -54,6 +55,6 @@
           </div>
         </form>
       </div>
-    </header>
+    </div>
   </body>
 </html>

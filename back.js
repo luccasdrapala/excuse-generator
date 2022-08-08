@@ -8,6 +8,9 @@ function processa_back() {
         url += option
     }
 
+    console.log(option)
+    console.log(url)
+
     let ajax = new XMLHttpRequest()
     ajax.open('GET', url)
         
@@ -27,4 +30,8 @@ function processa_back() {
             }
         }
     ajax.send()
+}
+
+function teste() {
+    console.log('passei no teste')
 }
